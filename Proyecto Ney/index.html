@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Nuestra pequeña historia</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#d90062">
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Source+Sans+3:ital,wght@1,600&family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="templates/icono.png" type="image/favicon-icon">
+    <link rel="apple-touch-icon" href="templates/icono.png">
+</head>
+<body>
+    <header class="header">
+        <section class="header__container">
+            <div class="header__container-logo">
+                <a href="index.html"><img src="templates/pink.jpg" height="35"><i>Nuestra pequeña historia</i></a>
+            </div>
+            <div class="header__container-button">
+                <img class="bar" src="templates/cancel_icon.png" alt="menu-bar">
+                <img class="none" src="templates/cancel_icon.png" alt="menu-close">
+            </div>
+            <nav class="header__container-nav ">
+                <a href="#inicio">Inicio</a>
+                <a href="#acerca">Escritos</a>
+                <a href="#momentos">Momentos divertidos</a>
+                <a href="#galeria">Nuestras aventuras</a>
+            </nav>
+        </section>
+    </header>
+    <!-- Aqui empieza el banner -->
+    <section id="inicio" class="home">
+        <article class="banner__img">
+            <aside class="banner__img-opacity">
+                <h2 class="banner__img-text">Cada dia nuevo que pasa, <br>a tu lado siempre es mas hermoso <br></h2>
+                <a href="#galeria" class="btn">Ver Aventura</a>
+            </aside>
+        </article>
+    </section>
+    <!-- Aqui empieza la información -->
+    <section id="acerca" class="about">
+        <article class="art-primary text-center">
+            <aside class="slogan text-center">
+                <h1></h1>
+                <h4><i>La alegría de poder verte</i></h4>
+                <p>La vida, es como una montaña rusa de emociones; Puedes estar en el punto más alto; Y puede bastar tan solo un instante para estar en lo más bajo posible...</p>
+                <p>Sin embargo en esos precisos momentos te das cuenta, a quien le importas realmente, Cuando estamos juntos ese sentir envuelve mi corazón y mi mente y me hace sentir muy feliz...</p>
+                <p>Poder verte, poder sentirte, poder abrazarte, poder besarte es lo mejor que puede existir... con ese cuerpo tan hermoso que demanda atención y cariño, me llena de alegría incesante como la de un niño...</p>
+                <p>Ciertamente me llenas de alegría, quiero estar contigo hasta el final de los días, y tus petalos de fuego besar, cada parte cada centimetro de tu cuerpo poder llenarlo de felicidad...</p>
+                <p>Quiero estar contigo desde hoy, hasta el final... </p>
+                <p>Te quiero, te respeto y Te amo...</p>
+                <div class="about__link">
+                    <a href="Tus_escritos.html" rel="noopener" class="btn">Ver Sorpresa...</a>
+                </div>
+            </aside>
+        </article>
+        <article class="slogan__img">
+            <img src="templates/ney.jpg" alt="perfil">
+        </article>
+    </section>
+    <!-- Aqui empieza el slider de imagenes -->
+    <section id="momentos" class="moments">
+        <article class="banner__img banner__img-2">
+            <aside class="banner__img-opacity banner__img-opacity2">
+                <div class="slider-container">
+                    <h2>Momentos divertidos</h2>
+                    <article class="slider" style="--slider-bg-color:var(--third-color-alfha);">
+                        <input type="radio" name="cambios" id="imagen-1" checked>
+                        <input type="radio" name="cambios" id="imagen-2">
+                        <input type="radio" name="cambios" id="imagen-3">
+                        <input type="radio" name="cambios" id="imagen-4">
+                        <ul class="cambios">
+                            <li class="cambio">
+                                <img class="avatar" width="10px" src="templates/slider/funny_moment1.jpg" alt="momento-1">
+                                <blockquote>El inicio de una aventura que vivirá siempre en nuestras vidas...</blockquote>
+                            </li>
+                            <li class="cambio">
+                                <img class="avatar" width="10px" src="templates/slider/funny_moment2.jpg" alt="momento-1">
+                                <blockquote>Risas en la calle jajaja</blockquote>
+                            </li>
+                            <li class="cambio">
+                                <img class="avatar" width="10px" src="templates/slider/funny_moment3.jpg" alt="momento-1">
+                                <blockquote>Emociones...</blockquote>
+                            </li>
+                            <li class="cambio">
+                                <img class="avatar" width="10px" src="templates/slider/funny_moment4.jpg" alt="momento-1">
+                                <blockquote>Basta flaco sos re lindo 7w7 </blockquote>
+                            </li>
+                            <li class="cambio">
+                                <img class="avatar" width="10px" src="templates/slider/funny_moment5.jpg" alt="momento-2">
+                                <blockquote>Una linda historia...</blockquote>
+                            </li>
+                            <li class="cambio">
+                                <img class="avatar" width="10px" src="templates/slider/funny_moment6.jpg" alt="momento-3">
+                                <blockquote>Ok, pero tu Delineado flaca, Te rezo 7u7</blockquote>
+                            </li>
+                            <li class="cambio">
+                                <img class="avatar" width="10px" src="templates/slider/funny_moment7.jpg" alt="momento-4">
+                                <blockquote>Una historia dirigida y protaginizada por nuestras vidas UwU</blockquote>
+                            </li>
+                        </ul>
+                        <aside class="slider-nav">
+                            <label for="imagen-1" id="dot-1"></label>
+                            <label for="imagen-2" id="dot-2"></label>
+                            <label for="imagen-3" id="dot-3"></label>
+                            <label for="imagen-4" id="dot-4"></label>
+                            <label for="imagen-5" id="dot-5"></label>
+                            <label for="imagen-6" id="dot-5"></label>
+                            <label for="imagen-7" id="dot-6"></label>
+                        </aside>
+                    </article>
+                </div>
+            </aside>
+        </article>
+    </section>
+    <!-- Aqui empieza la galeria -->
+    <section id="galeria" class="galery">
+        <h2>Nuestras Aventuras Juntos</h2>
+
+        <a href="#recuerdo-1" class="galery-card">
+            <img src="templates/momentos/uni.jpg" alt="foto-1">
+            <aside class="galery-card-info">
+                <div>
+                    <h3>Primer Recuerdo</h3>
+                    <p>Los recuerdos son los tesoros que se mantienen atrapados en el almacén de nuestras almas, para mantener el corazón caliente cuando estamos solos.</p>
+                </div>
+            </aside>
+        </a>
+        <a href="#recuerdo-2" class="galery-card">
+            <img src="templates/momentos/parque.jpg" alt="foto-1">
+            <aside class="galery-card-info">
+                <div>
+                    <h3>segundo Recuerdo</h3>
+                    <p>El recuerdo es el único paraíso del cual no podemos ser expulsados.</p>
+                </div>
+            </aside>
+        </a>
+        <a href="#recuerdo-3" class="galery-card">
+            <img src="templates/momentos/expo.jpg" alt="foto-1">
+            <aside class="galery-card-info">
+                <div>
+                    <h3>tercer Recuerdo</h3>
+                    <p>¡Ah qué grande es el mundo a la luz de las lámparas! <br />Y qué pequeño es a los ojos del recuerdo!</p>
+                </div>
+            </aside>
+        </a>
+        <a href="#recuerdo-4" class="galery-card"> 
+            <img src="templates/momentos/Aestetik.jpg" alt="foto-1">
+            <aside class="galery-card-info">
+                <div>
+                    <h3>Cuarto Recuerdo</h3>
+                    <p>Los recuerdos son como un jardín. Regularmente debes cuidar las flores agradables y quitar las malas hierbas invasoras.</p>
+                </div>
+            </aside>
+        </a>
+        <a href="#recuerdo-5" class="galery-card">
+            <img src="templates/momentos/you_and_me.jpg" alt="foto-1">
+            <aside class="galery-card-info">
+                <div>
+                    <h3>Quinto Recuerdo</h3>
+                    <p>La vida sería imposible si todo se recordase. El secreto está en saber elegir lo que debe olvidarse.</p>
+                </div>
+            </aside>
+        </a>
+        <a href="#recuerdo-6" class="galery-card">
+            <img src="templates/momentos/Remember.jpg" alt="foto-1">
+            <aside class="galery-card-info">
+                <div>
+                    <h3>sexto Recuerdo</h3>
+                    <p>Los recuerdos son los tesoros que se mantienen atrapados en el almacén de nuestras almas, para mantener el corazón caliente cuando estamos solos.</p>
+                </div>
+            </aside>
+        </a>
+    </section>
+
+    <!-- Ventana Modal para los articulos -->
+    <article class="modal" id="recuerdo-1">
+        <div class="modal-content">
+            <a href="#close" class="modal-close">
+                <img src="templates/cancel_icon.png" alt="close">
+            </a>
+            <!-- Propiedades de las cards -->
+            <article class="galery-modal">
+                <img src="templates/momentos/uni.jpg" alt="primer-recuerdo">
+                <div class="galery-moda-info">
+                    <h3 class="leter">Mi primer Recuerdo</h3>
+                    <p>Los recuerdos son los tesoros que se mantienen atrapados en el almacén de nuestras almas, para mantener el corazón caliente cuando estamos solos...</p>
+                    <aside class="galery-details">
+                        <small><b>Momento juntos</b></small>
+                        <small>Recuerdo cuando te rodeaba en mis brazos, te sentías tan suave y delicada...</small>
+                        <small><b>Fecha:</b></small>
+                        <small>18 de agosto 2022</small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="recuerdo-2">
+        <div class="modal-content">
+            <a href="#close" class="modal-close">
+                <img src="templates/cancel_icon.png" alt="close">
+            </a>
+            <article class="galery-modal">
+                <img src="templates/momentos/parque.jpg" alt="primer-recuerdo">
+                <div class="galery-moda-info">
+                    <h3>Mi segundo Recuerdo</h3>
+                    <p>El recuerdo es el único paraíso del cual no podemos ser expulsados.</p>
+                    <aside class="galery-details">
+                        <small><b>Momentos juntos</b></small>
+                        <small>Me enamore de tu figura y tu esquisita sensualidad</small>
+                        <small><b>Fecha:</b></small>
+                        <small>21 de agosto 2022</small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="recuerdo-3">
+        <div class="modal-content">
+            <a href="#close" class="modal-close">
+                <img src="templates/cancel_icon.png" alt="close">
+            </a>
+            <article class="galery-modal">
+                <img src="templates/momentos/expo.jpg" alt="primer-recuerdo">
+                <div class="galery-moda-info">
+                    <h3>Mi tercer recuerdo</h3>
+                    <p>¡Ah qué grande es el mundo a la luz de las lámparas! <br />Y qué pequeño es a los ojos del recuerdo!</p>
+                    <aside class="galery-details">
+                        <small><b>Momentos juntos</b></small>
+                        <small>Fue un dia inolvidable, me encanto verte bailar y verte tan emocionada y feliz</small>
+                        <small><b>Fecha:</b></small>
+                        <small>28 de agosto 2022</small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="recuerdo-4">
+        <div class="modal-content">
+            <a href="#close" class="modal-close">
+                <img src="templates/cancel_icon.png" alt="close">
+            </a>
+            <article class="galery-modal">
+                <img src="templates/momentos/Aestetik.jpg" alt="primer-recuerdo">
+                <div class="galery-moda-info">
+                    <h3>Mi cuarto Recuerdo</h3>
+                    <p>Los recuerdos son como un jardín. Regularmente debes cuidar las flores agradables y quitar las malas hierbas invasoras.</p>
+                    <aside class="galery-details">
+                        <small><b>Momentos juntos</b></small>
+                        <small>La vez que compatimos un domingo en metrocentro, un pendiente menos fue super cool, conociste a mi papá</small>
+                        <small><b>Fecha:</b></small>
+                        <small>21 de agosto 2022</small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="recuerdo-5">
+        <div class="modal-content">
+            <a href="#close" class="modal-close">
+                <img src="templates/cancel_icon.png" alt="close">
+            </a>
+            <article class="galery-modal">
+                <img src="templates/momentos/you_and_me.jpg" alt="quinto recuerdo">
+                <div class="galery-moda-info">
+                    <h3>Mi quinto Recuerdo</h3>
+                    <p>La vida sería imposible si todo se recordase. El secreto está en saber elegir lo que debe olvidarse.</p>
+                    <aside class="galery-details">
+                        <small><b>Momentos juntos</b></small>
+                        <small>Ese mismo dia fuimos a varios lugares, fue espectacular ver como en un dia realizamos tantas cosas</small>
+                        <small><b>Fecha:</b></small>
+                        <small>21 de agosto 2022</small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="modal" id="recuerdo-6">
+        <div class="modal-content">
+            <a href="#close" class="modal-close">
+                <img src="templates/cancel_icon.png" alt="">
+            </a>
+            <article class="galery-modal">
+                <img src="templates/momentos/Remember.jpg" alt="sexto-recuerdo">
+                <div class="galery-moda-info">
+                    <h3>Mi sexto Recuerdo</h3>
+                    <p>Los recuerdos son los tesoros que se mantienen atrapados en el almacén de nuestras almas, para mantener el corazón caliente cuando estamos solos.</p>
+                    <aside class="galery-details">
+                        <small><b>Nuestro ultimo encuentro...</b></small>
+                        <small>Dia a dia me pregunto cuando será la proxima vez que nos volvamos a ver, aun recuerdo tu fragancia y el sabor de tus besos... Extraño volver a verte</small>
+                        <small><b>Fecha:</b></small>
+                        <small>17 de septiembre 2022</small>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </article>
+
+    <!-- Aqui empieza la sección de contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Parece ser el final de nuestra historia...</h2>
+            <article class="contact-cards">
+                <aside class="contact-card box-shadow-1">
+                    <h3><i>Fue muy lindo compartir a tu lado</i></h3>
+                    <p>Espero que este pequeño Proyecto te haya gustado, me llevo tiempo pero en definitiva es para ti...</p>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <h3><i>Me Encanto haberte conocido</i></h3>
+                    <p>Ahora y siempre seras parte de mi corazón...</p>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <h3><i>Desearia volver a encontrarme contigo algun dia</i></h3>
+                    <a href="https://api.whatsapp.com/send?phone=+50587411876" target="_blank"><i>Puedes escribirme cuando quieras</i></a>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <h3><i>Feliz Cumpleaños :3</i></h3>
+                    
+                </aside>
+            </article>
+            <!-- Aqui empieza el formulario 
+            <form action="htttps://formsubmit.co/delgadoangel062@gmail.com" class="contact-form box-shadow-1" method="POST">
+                <input type="text" name="name" placeholder="Ingresa tu nombre" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$">
+                <input type="email" name="email" placeholder="Ingresa tu correo" title="email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$">
+                <textarea name="comments" placeholder="Escribe tu comentario" cols="40" rows="15"></textarea>
+                <div class="contact-form-loader contact-form-loader-none">
+                    <img src="assets/icon/loader.svg"alt="loader">
+                </div>
+                <input type="submit" class="btn" value="Enviar Mensaje">
+            </form>
+            <article id="gracias" class="modal">
+                <div class="modal-content">
+                    <article class="contact-form-response contact-form-loader-none">
+                        <h3>Muchas Gracias!! <br />por tu comentario</h3>
+                        <img src="assets/icon/happy-face.svg" alt="happy-face">
+                    </article>
+                </div>
+            </article>-->
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <small>Proyecto creado por <a href="https://www.instagram.com/jhoan_kun_/" target="_blank" rel="nooperner">Ing. Jhoan Saborio</a> &copy;2022</small>
+    </footer>
+    <!-- scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
